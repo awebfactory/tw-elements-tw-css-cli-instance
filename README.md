@@ -10,10 +10,9 @@
 ## Running this instance in watch mode
 
 ```bash
-git clone tw-elements-tw-css-cli-instance
-cd .....
+git clone https://github.com/awebfactory/tw-elements-tw-css-cli-instance.git
+cd tw-elements-tw-css-cli-instance
 npm install
-npx tailwindcss init
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
